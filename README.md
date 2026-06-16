@@ -42,5 +42,41 @@ The CAD folder contains all the CAD files to print the GPU mod frame. The upper 
 - NF-A9 - Files for the Noctua NF-A9 assembly.
 - 270_Single - STP file of the triple 92mm PCB for use with your own designs.
 
+### Ventus:
+<p float="center">
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Ventus-Frame_Front.png" width="40%" /> 
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Ventus-Frame_Rear.png" width="40%" /> 
+</p>
+
+### Generic:
+<p float="center">
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Generic-Frame_Front.png" width="40%" /> 
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Generic-Frame_Rear.png" width="40%" /> 
+</p>
+
+<br>
+
 # PCB: 
 The PCB folder contains manufacturing files for both JLCPCB and PCBWay. All you need to do to order is drag the zip file over to the website, select 1.6mm PCB thickness and whatever color you'd like, then add to cart. When wiring extensions, make sure that your motherboard input is connected to the correct pins on the input. There are renders of the PCB pin-in and pin-out to make this easier.
+
+4 pos headers to solder onto the boards can be found through DigiKey using this part number - 0022286040 - Or through the below link:
+[Headers](https://www.digikey.com/en/products/detail/molex/0022286040/3158671?s=N4IgTCBcDaIAxzEgHANjgFjiAugXyA)
+
+| Pin | Assignment |
+| --- | ---------- |
+| 1   | GND        |
+| 2   | +12V       |
+| 3   | RPM        |
+| 4   | PWM        |
+
+### Input from motherboard:
+<p float="center">
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Schem2.png" width="40%" /> 
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/PCB1.png" width="40%" /> 
+</p>
+
+### Output to fan:
+<p float="center">
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Schem3.png" width="40%" /> 
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/PCB2.png" width="40%" /> 
+</p>
