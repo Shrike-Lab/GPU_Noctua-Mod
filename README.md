@@ -56,6 +56,8 @@ The CAD folder contains all the CAD files to print the GPU mod frame. The upper 
 - NF-A9 - Files for the Noctua NF-A9 assembly.
 - 270_Single - STP file of the triple 92mm PCB for use with your own designs.
 
+When printing the frame, I would highly recommend using a higher temperature filament to stop melting or creep over time. ABS was used in all my testing.
+
 ### Ventus:
 <p float="center">
   <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Ventus-Frame_Front.png" width="40%" /> 
