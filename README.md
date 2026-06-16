@@ -21,16 +21,26 @@ Stock GPU fans are typically thin and loud, so if space allows it's not a bad id
 
 <div align="center">
   <a
-    href="https://www.Shrikelab.co" title="Kits and PCBs available now!">Video here!
+    href="https://www.Shrikelab.co" title="Kits and PCBs available now!">Design and build video here
   </a>  
 </div>
 
 ---
 
 <p float="center">
-  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/5.JPG" width="100%" /> 
+  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/Img5.JPG" width="100%" /> 
 </p>
 
-<p float="center">
-  <img src="https://github.com/Shrike-Lab/GPU_Noctua-Mod/blob/main/IMG/3.JPG" width="100%" /> 
-</p>
+This repository contains the CAD and PCB files necessary to fan mod a Ventus 3070, 3080, 3090 and 3090ti, with triple Noctua NF-A9 fans. There are STL and STP files provided for the CAD components and manufacturing exports for both JLCPCB and PCBWay. There is also a generic frame that can be adapted or ziptied to non-Ventus GPUs.
+
+# CAD:
+The CAD folder contains all the CAD files to print the GPU mod frame. The upper and lower are mirrored, however the lower contains a cutout for the splitter PCB to be mounted. It's recommended to use a heatset insert here, a drawing of which can also be found in the CAD folder. There are also STP and STL files provided of the Noctua NF-A9, in case you'd like to use it in your own models.
+
+**The CAD folder contains the following:**
+- Ventus - An MSI Ventus specific design used with any of the high-end 30 series ventus cards.
+- Generic - A modified version of the original shroud design, cutting down the additional height and adding mount points on either end for zip ties.
+- NF-A9 - Files for the Noctua NF-A9 assembly.
+- 270_Single - STP file of the triple 92mm PCB for use with your own designs.
+
+# PCB: 
+The PCB folder contains manufacturing files for both JLCPCB and PCBWay. All you need to do to order is drag the zip file over to the website, select 1.6mm PCB thickness and whatever color you'd like, then add to cart. When wiring extensions, make sure that your motherboard input is connected to the correct pins on the input. There are renders of the PCB pin-in and pin-out to make this easier.
